@@ -3,23 +3,11 @@ body{
 }
 
 .logo{
-    max-width: 50%;
+    max-width: 750%;
     width: 400px;
     height: auto;
     border-radius: 70px;
     background: radial-gradient(circle at the top left, purple, red);
-}
-
-@media(max-width: 900px){
-.contenedor-principal{
-    flex-direction: column-reverse;
-    justify-content: center;
-}
-.zona-logo{
-    max-width: 900px;
-    margin-bottom: 40px;
-    text-align: center;
-}
 }
 
 .contenedor-principal{
