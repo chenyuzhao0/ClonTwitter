@@ -1,0 +1,15 @@
+figure{
+  max-width: 100%;
+  height: auto;
+}
+.fondo{
+  color:#fff
+}
+header{
+  background: #000;
+  color: #fff;
+  padding: 32px;
+}
+footer{
+  color: #ffff;
+}
