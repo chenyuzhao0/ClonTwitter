@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: row;
     margin:0px auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .menu{
@@ -13,20 +14,67 @@ body{
     list-style: none;
     padding-left: 10%;
     margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.iconos svg{
     width: 30px;
 }
 
-.x{
-    width: 25px;
+.iconos a{
+    text-decoration: none;
+    size: 30px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 19px;
 }
 
-.post{
-    text-decoration: none;
-    padding: 10px;
-    margin-top: 10px;
-    background: white;
-    color:black;
+.iconos .post{
+    color: black;
+    justify-content: center;
+    font-weight: 500;
+    padding: 17px;
+    background: rgb(250, 250, 250);
     border-radius: 100px;
+    margin-inline: -10px 35px;
+    font-size: 17px;
+}
+
+.menu .cuentas{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+    margin-top: 40px;
+    color: white;
+    gap: 10px;
+}
+
+.menu .nombre{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.menu .c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(92 107 192);
+    border-radius: 100%;
+}
+.menu .usuario{
+    color: grey;
 }
 
 .contenedor-principal{
