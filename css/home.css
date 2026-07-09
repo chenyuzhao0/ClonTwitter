@@ -6,10 +6,11 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+
 .menu{
     width: 26%;
+    position: sticky;
 }
-
 .menu .iconos{
     list-style: none;
     padding-left: 10%;
@@ -18,11 +19,9 @@ body{
     flex-direction: column;
     gap: 20px;
 }
-
 .iconos svg{
     width: 30px;
 }
-
 .iconos a{
     text-decoration: none;
     size: 30px;
@@ -32,7 +31,6 @@ body{
     align-items: center;
     font-size: 19px;
 }
-
 .iconos .post{
     color: black;
     justify-content: center;
@@ -43,7 +41,6 @@ body{
     margin-inline: -10px 35px;
     font-size: 17px;
 }
-
 .menu .cuentas{
     text-decoration: none;
     display: flex;
@@ -53,14 +50,12 @@ body{
     color: white;
     gap: 10px;
 }
-
 .menu .nombre{
     display: flex;
     flex-direction: column;
     font-size: 14px;
     gap: 5px;
 }
-
 .menu .c{
     display: flex;
     flex-direction: column;
@@ -77,12 +72,34 @@ body{
     color: grey;
 }
 
+
 .contenedor-principal{
     width: 40%;
-    height: 100vh;
+    min-height: 100vh;
     border-left: 1px solid rgb(50, 49, 49);
     border-right: 1px solid rgb(50, 49, 49);
+    display: flex;
+    flex-direction: column;
 }
+.para-ti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    border:1px;
+}
+.tweet{
+    display: flex;
+    flex-direction: row;
+}
+.mostrar-mas a{
+    color:white;
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .prescindible{
     width: 20%;
