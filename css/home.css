@@ -84,20 +84,82 @@ body{
 .para-ti{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    color: white;
-    border:1px;
+    border-bottom: 1px solid rgb(50,49,49);
 }
-.tweet{
+.foryou{
+    background-color: transparent;
+    color: white;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    flex: 1;
+    font-weight: 600;
+}
+.texto-activo{
+    border-bottom: 4px solid rgb(29 155 240);
+    display: inline-block;
+    padding: 15px 0px;
+    font-size: 14px;
+}
+.siguiendo{
+    background-color: transparent;
+    color: gray;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    flex: 1;
+    font-weight: 600;
+    font-size: 14px;
+}
+.mas{
+    background-color: transparent;
+    color: gray;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.crear-post{
     display: flex;
     flex-direction: row;
+    padding: 15px;
+    border-bottom: 1px solid rgb(50, 49, 49);
 }
-.mostrar-mas a{
-    color:white;
+.crear-post .icono{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
 }
-.feed{
+.crear-post .publicar{
+    flex: 1;
+}
+.publicar .pasando{
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    color: white;
+    resize: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.publicar .rodapie{
+    color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rodapie .post{
+    background-color: grey;
+    color: rgb(64, 63, 63);
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 8px 16px;
+    border: 0px;
 }
 
 
