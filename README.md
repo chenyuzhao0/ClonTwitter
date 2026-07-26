@@ -1,6 +1,9 @@
 TWITTER / X Clone.
 <br>
-<img src="imagenes/login-finished-V1.png" alt="Pantalla de Login de Twitter">
+<img src="imagenes/login-finished-V1.png" alt="Twitter login screen">
+
+<img src="imagenes/feed-screen-finished-v1.png"
+alt ="Twitter feed screen">
 
 
 The goal is to clone Twitter/X login and feed interface frontend.
